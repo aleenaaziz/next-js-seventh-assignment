@@ -8,9 +8,13 @@ export default {
   ],
   theme: {
     extend: {
+      borderRadius: {
+        'br-300': '250px', // Custom bottom-right corner radius
+      },
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        
+        custompur: "#6F42C1",
+        custombg: "#F0ECF9",
       },
     },
   },
